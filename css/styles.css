@@ -8,3 +8,16 @@ h1 {
         color: blue;
     }
 }
+
+/* Min width */
+p {
+    background-color: crimson;
+    color: #000;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: brown;
+        color: #fff;
+    }
+}
